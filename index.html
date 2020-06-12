@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Resources/CSS/style.css" type="text/css" >
+    <script defer src="script.js"></script>
+    <title>Travel Experiences</title>
+</head>
+<body>
+    <div class="smooth">
+        <div class="header">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#places">Places</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <section id="home">
+            <h2>WELCOME TO MY TRAVEL WEBSITE</h2>
+        </section>
+
+        <section id="about">
+            <h2>ABOUT</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+
+        <section id="places">
+            <h2>PLACES</h2>
+            <div class="container">
+                <div class="item" id="item-1"><img src="./Resources/Images/trees.jpg"></div>
+                <div class="item" id="item-2"><img src="./Resources/Images/winter.jpg"></div>
+                <div class="item" id="item-3"><img src="./Resources/Images/postavaru.jpg"></div>
+                <div class="item" id="item-4"><img src="./Resources/Images/lisa.jpg"></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>CONTACT</h2>
+            <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182320.9513097342!2d25.954551552554577!3d44.43798529375863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucure%C8%99ti!5e0!3m2!1sro!2sro!4v1591886733177!5m2!1sro!2sro" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            <ul>
+                <li>Address: Bucharest, Romania</li>
+                <li>Email:alexandra.andrada.serban@gmail.com</li>
+            </ul>
+                <div id="error" ></div>
+                <form id="form" action="/" method="GET">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" >
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <button id="register" type="submit">REGISTER FOR TRAVEL TIPS</button>
+                </form>
+            
+        </section>
+        <div class="footer">
+            <div class="footer-bottom">
+                &copy; Alexandra Serban
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
